@@ -1,40 +1,48 @@
-// Smooth scrolling and active nav link
+// Theme Toggle
+const themeBtn = document.getElementById('themeBtn');
+let isDark = true;
+
+themeBtn.addEventListener('click', () => {
+    isDark = !isDark;
+    if (isDark) {
+        document.body.style.background = 'var(--dark)';
+        themeBtn.innerHTML = '<i class="fas fa-moon"></i>';
+    } else {
+        document.body.style.background = 'var(--light)';
+        document.body.style.color = 'var(--text-dark)';
+        themeBtn.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+});
+
+// Smooth Scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
+            target.scrollIntoView({ behavior: 'smooth' });
         }
-        // Close mobile menu
-        document.getElementById('navMenu').classList.remove('active');
     });
 });
 
-// Mobile menu toggle
-const menuToggle = document.getElementById('menuToggle');
-const navMenu = document.getElementById('navMenu');
+// Contact Form
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const inputs = this.querySelectorAll('input, textarea');
+        const name = inputs[0].value;
+        const email = inputs[1].value;
+        const subject = inputs[2].value;
+        const message = inputs[3].value;
 
-menuToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
-
-// Update active nav link on scroll
-window.addEventListener('scroll', () => {
-    let current = '';
-    const sections = document.querySelectorAll('section');
-
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectionTop - 200) {
-            current = section.getAttribute('id');
-        }
+        const mailtoLink = `mailto:adham.ahmed.cs@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+        window.location.href = mailtoLink;
+        this.reset();
     });
+}
 
-    document.querySelectorAll('.nav-link').forEach(link => {
+console.log('Portfolio loaded!');    document.querySelectorAll('.nav-link').forEach(link => {
         link.classList.remove('active');
         if (link.getAttribute('href').slice(1) === current) {
             link.classList.add('active');
