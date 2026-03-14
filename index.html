@@ -3,269 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adham Ahmed - Data Engineer & AI/Digital Marketing Specialist Portfolio">
+    <meta name="description" content="Adham Ahmed - Data Engineer & AI/Digital Marketing Specialist">
     <meta name="author" content="Adham Ahmed Ahmed">
-    <title>Adham Ahmed Ahmed - Data Engineer & AI Specialist | Portfolio</title>
+    <title>Adham Ahmed - Data Engineer & AI Specialist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#home" class="logo">Adham Ahmed</a>
-                <button class="menu-toggle" id="menuToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <button class="theme-toggle" id="themeToggle">
-                    <i class="fas fa-moon"></i>
-                </button>
+        <div class="nav-container">
+            <div class="nav-logo">Adham Ahmed</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#react" class="nav-link">React</a></li>
+                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <button id="themeBtn"><i class="fas fa-moon"></i></button>
             </div>
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="home-section">
-        <div class="container">
-            <div class="home-content">
-                <div class="home-text">
-                    <h1 class="hero-title">Adham Ahmed Ahmed</h1>
-                    <p class="hero-subtitle">Data Engineer & AI/Digital Marketing Specialist</p>
-                    <p class="hero-description">Building scalable, data-driven solutions combining technical expertise with marketing strategies</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                    </div>
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Adham Ahmed Ahmed</h1>
+                <p class="subtitle">Data Engineer & AI/Digital Marketing Specialist</p>
+                <p class="description">Building scalable, data-driven solutions combining technical expertise with marketing strategies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
-                
+            </div>
+            <div class="hero-image">
+                <img src="images/1d67f2d4-4458-452f-9496-a3c259511cbc.png" alt="Adham Ahmed">
+                <div class="image-glow"></div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
+    <!-- About -->
+    <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                
+                <div class="about-image">
+                    <img src="images/1d67f2d4-4458-452f-9496-a3c259511cbc.png" alt="Adham Ahmed">
+                    <div class="image-glow"></div>
+                </div>
                 <div class="about-text">
-                    <h3>Who I Am</h3>
-                    <p>I'm a second-year Computer Science student at Nahda University, Beni Suef (2024–2028), passionate about building scalable, data-driven solutions that combine technical expertise with strategic marketing approaches.</p>
-                    <p>With a strong foundation in Data Engineering and AI, I'm actively seeking opportunities in Full Stack Software & AI Engineering where I can contribute my unique blend of technical and marketing skills.</p>
+                    <h3>Who Am I?</h3>
+                    <p>I'm a second-year Computer Science student at Nahda University, Beni Suef (2024–2028). I'm passionate about building scalable, data-driven solutions that combine technical expertise with strategic marketing approaches.</p>
+                    <p>With a strong foundation in Data Engineering and AI, I'm actively seeking opportunities in Full Stack Software & AI Engineering where I can leverage my unique blend of technical and marketing skills.</p>
+                    
                     <div class="about-info">
-                        <div class="info-item">
-                            <h4>📍 Location</h4>
+                        <div class="info-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
                             <p>Fayoum, Egypt</p>
                         </div>
-                        <div class="info-item">
-                            <h4>🎓 Education</h4>
-                            <p>Nahda University, Beni Suef</p>
+                        <div class="info-box">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>Nahda University</p>
                         </div>
-                        <div class="info-item">
-                            <h4>🎯 Specialization</h4>
-                            <p>Data Engineering & AI</p>
+                        <div class="info-box">
+                            <i class="fas fa-star"></i>
+                            <h4>Focus</h4>
+                            <p>Data & AI</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Highlights Section -->
-            <div class="highlights-section">
-                <div class="highlight-card">
+            <!-- Highlights -->
+            <div class="highlights">
+                <div class="highlight">
                     <i class="fas fa-chart-line"></i>
                     <h4>Data-Driven</h4>
-                    <p>Expertise in data cleaning, analytics, and visualization</p>
+                    <p>Data cleaning, analytics & visualization</p>
                 </div>
-                <div class="highlight-card">
+                <div class="highlight">
                     <i class="fas fa-robot"></i>
                     <h4>AI Focused</h4>
-                    <p>Generative AI, LLM Applications, Prompt Engineering</p>
+                    <p>Generative AI & LLM Applications</p>
                 </div>
-                <div class="highlight-card">
+                <div class="highlight">
                     <i class="fas fa-bullhorn"></i>
                     <h4>Marketing Expert</h4>
-                    <p>SEO, Social Media Ads, Campaign Optimization</p>
+                    <p>SEO, Social Media & Campaign Optimization</p>
                 </div>
-                <div class="highlight-card">
+                <div class="highlight">
                     <i class="fas fa-users"></i>
                     <h4>Team Player</h4>
-                    <p>Strong communication and collaboration skills</p>
+                    <p>Communication & Collaboration</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
+    <!-- Skills -->
+    <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
-                <!-- Programming -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-laptop-code"></i> Programming</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">OOP</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">SQL</span>
+                    <div class="skills-list">
+                        <span>Python</span>
+                        <span>C++</span>
+                        <span>HTML/CSS</span>
+                        <span>SQL</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
                     </div>
                 </div>
 
-                <!-- Data Engineering -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-database"></i> Data Engineering</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Data Cleaning</span>
-                        <span class="skill-tag">Dashboarding</span>
-                        <span class="skill-tag">Analytics</span>
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Data Visualization</span>
-                        <span class="skill-tag">ETL</span>
+                    <div class="skills-list">
+                        <span>Data Cleaning</span>
+                        <span>Power BI</span>
+                        <span>Analytics</span>
+                        <span>Dashboarding</span>
+                        <span>ETL</span>
+                        <span>Visualization</span>
                     </div>
                 </div>
 
-                <!-- AI & ML -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Generative AI</span>
-                        <span class="skill-tag">Prompt Engineering</span>
-                        <span class="skill-tag">LLM Applications</span>
-                        <span class="skill-tag">Gemini API</span>
-                        <span class="skill-tag">AI Tools</span>
+                    <div class="skills-list">
+                        <span>Generative AI</span>
+                        <span>Prompt Engineering</span>
+                        <span>LLM Applications</span>
+                        <span>Gemini API</span>
+                        <span>AI Tools</span>
                     </div>
                 </div>
 
-                <!-- Digital Marketing -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-bullhorn"></i> Digital Marketing</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">SEO</span>
-                        <span class="skill-tag">Social Media Ads</span>
-                        <span class="skill-tag">Campaign Optimization</span>
-                        <span class="skill-tag">Analytics</span>
-                        <span class="skill-tag">Content Strategy</span>
-                        <span class="skill-tag">WhatsApp Marketing</span>
+                    <div class="skills-list">
+                        <span>SEO</span>
+                        <span>Social Media Ads</span>
+                        <span>Campaign Optimization</span>
+                        <span>Analytics</span>
+                        <span>WhatsApp Marketing</span>
                     </div>
                 </div>
 
-                <!-- Soft Skills -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-handshake"></i> Soft Skills</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Problem-Solving</span>
-                        <span class="skill-tag">Time Management</span>
-                        <span class="skill-tag">Teamwork</span>
-                        <span class="skill-tag">Communication</span>
-                        <span class="skill-tag">Leadership</span>
+                    <div class="skills-list">
+                        <span>Problem-Solving</span>
+                        <span>Time Management</span>
+                        <span>Teamwork</span>
+                        <span>Communication</span>
+                        <span>Leadership</span>
                     </div>
                 </div>
 
-                <!-- Languages -->
-                <div class="skill-category">
+                <div class="skill-card">
                     <h3><i class="fas fa-globe"></i> Languages</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Arabic (Native)</span>
-                        <span class="skill-tag">English (B1)</span>
+                    <div class="skills-list">
+                        <span>Arabic (Native)</span>
+                        <span>English (B1)</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
+    <!-- Projects -->
+    <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Project 1 -->
                 <div class="project-card">
-                    <div class="project-header ai-project">
+                    <div class="project-header ai">
                         <i class="fas fa-sparkles"></i>
+                    </div>
+                    <div class="project-body">
                         <span class="project-badge">AI & Generative</span>
-                    </div>
-                    <div class="project-body">
                         <h3>AI-Powered Advertising Campaign</h3>
-                        <p>Developed a comprehensive advertising campaign leveraging cutting-edge AI tools to generate creative content and optimize marketing strategies.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Gemini AI</span>
-                            <span class="tech-tag">Microsoft Copilot</span>
-                            <span class="tech-tag">Hailuo AI</span>
-                            <span class="tech-tag">Suno</span>
-                            <span class="tech-tag">CapCut</span>
-                        </div>
-                        <div class="project-highlights">
-                            <ul>
-                                <li>Generated AI-powered ad copy and visuals</li>
-                                <li>Created multi-format content (images, videos, audio)</li>
-                                <li>Optimized for multiple social media platforms</li>
-                                <li>Enhanced campaign engagement through AI insights</li>
-                            </ul>
+                        <p>Comprehensive advertising campaign leveraging cutting-edge AI tools to generate creative content and optimize marketing strategies.</p>
+                        <div class="tech-stack">
+                            <span>Gemini AI</span>
+                            <span>Copilot</span>
+                            <span>Hailuo AI</span>
+                            <span>Suno</span>
+                            <span>CapCut</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
                 <div class="project-card">
-                    <div class="project-header marketing-project">
+                    <div class="project-header marketing">
                         <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="project-body">
                         <span class="project-badge">Digital Marketing</span>
-                    </div>
-                    <div class="project-body">
-                        <h3>Travel Agency Digital Marketing Campaign</h3>
-                        <p><strong>Skyways Travel</strong> - Executed a WhatsApp-first marketing strategy resulting in significant business growth and exceptional ROI.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">WhatsApp Marketing</span>
-                            <span class="tech-tag">Campaign Analytics</span>
-                            <span class="tech-tag">Sales Optimization</span>
-                        </div>
-                        <div class="project-highlights">
-                            <ul>
-                                <li>🎯 <strong>+15% Sales Growth</strong> through targeted campaigns</li>
-                                <li>💰 <strong>140% ROI</strong> achieved</li>
-                                <li>📱 WhatsApp-first engagement strategy</li>
-                                <li>📊 Real-time campaign performance tracking</li>
-                            </ul>
+                        <h3>Travel Agency Marketing Campaign</h3>
+                        <p>WhatsApp-first strategy for Skyways Travel resulting in significant business growth and exceptional ROI.</p>
+                        <div class="results">
+                            <span>+15% Sales Growth</span>
+                            <span>140% ROI</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
                 <div class="project-card">
-                    <div class="project-header data-project">
+                    <div class="project-header data">
                         <i class="fas fa-chart-bar"></i>
-                        <span class="project-badge">Data Visualization</span>
                     </div>
                     <div class="project-body">
+                        <span class="project-badge">Data Visualization</span>
                         <h3>Sales Dashboard (Power BI)</h3>
-                        <p>Designed and developed interactive dashboards providing comprehensive sales insights, performance metrics, and drill-through capabilities for data-driven decision-making.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">Data Analytics</span>
-                            <span class="tech-tag">Dashboard Design</span>
-                        </div>
-                        <div class="project-highlights">
-                            <ul>
-                                <li>Interactive dashboards with real-time data updates</li>
-                                <li>Decomposition trees for detailed analysis</li>
-                                <li>Drill-through capabilities for deeper insights</li>
-                                <li>KPI tracking and performance monitoring</li>
-                            </ul>
+                        <p>Interactive dashboards with decomposition trees and drill-through capabilities for data-driven decision-making.</p>
+                        <div class="features">
+                            <span>Real-time Updates</span>
+                            <span>KPI Tracking</span>
                         </div>
                     </div>
                 </div>
@@ -273,168 +237,278 @@
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications-section">
+    <!-- React Section -->
+    <section id="react" class="react-section">
         <div class="container">
-            <h2 class="section-title">Certifications & Training</h2>
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-icon ai-cert">
-                        <i class="fas fa-robot"></i>
+            <h2 class="section-title">React Development</h2>
+            <p class="react-intro">Building modern, interactive web applications with React and cutting-edge technologies</p>
+            
+            <div class="react-grid">
+                <!-- React Skills -->
+                <div class="react-card premium">
+                    <div class="react-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React Expertise</h3>
                     </div>
-                    <h3>AI Ambassadors Program</h3>
-                    <p class="cert-issuer">National Telecom Institute (NTI)</p>
-                    <p class="cert-desc">Comprehensive training in artificial intelligence fundamentals and applications</p>
+                    <div class="react-body">
+                        <ul class="react-list">
+                            <li><i class="fas fa-check-circle"></i> Functional Components & Hooks</li>
+                            <li><i class="fas fa-check-circle"></i> State Management (Redux, Context API)</li>
+                            <li><i class="fas fa-check-circle"></i> React Router & Navigation</li>
+                            <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Component Reusability</li>
+                            <li><i class="fas fa-check-circle"></i> React Patterns & Best Practices</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon marketing-cert">
-                        <i class="fas fa-bullhorn"></i>
+                <!-- Frontend Stack -->
+                <div class="react-card">
+                    <div class="react-header">
+                        <i class="fas fa-palette"></i>
+                        <h3>Frontend Stack</h3>
                     </div>
-                    <h3>Digital Marketing Training</h3>
-                    <p class="cert-issuer">ITIDA-NTI</p>
-                    <p class="cert-score">Score: 97%</p>
-                    <p class="cert-desc">Advanced digital marketing strategies and campaign management</p>
+                    <div class="react-body">
+                        <div class="tech-group">
+                            <span class="tech-label">UI Libraries:</span>
+                            <div class="tech-items">
+                                <span class="tech-badge">Material-UI</span>
+                                <span class="tech-badge">Tailwind CSS</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">Styled Components</span>
+                            </div>
+                        </div>
+                        <div class="tech-group">
+                            <span class="tech-label">Tools & Libraries:</span>
+                            <div class="tech-items">
+                                <span class="tech-badge">Axios</span>
+                                <span class="tech-badge">Fetch API</span>
+                                <span class="tech-badge">Jest</span>
+                                <span class="tech-badge">React Testing Library</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon ai-cert">
-                        <i class="fas fa-sparkles"></i>
+                <!-- Build & Deployment -->
+                <div class="react-card">
+                    <div class="react-header">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Build & Deploy</h3>
                     </div>
-                    <h3>Generative AI</h3>
-                    <p class="cert-issuer">NVIDIA DLI</p>
-                    <p class="cert-desc">Deep learning with focus on generative AI technologies</p>
+                    <div class="react-body">
+                        <ul class="react-list">
+                            <li><i class="fas fa-check-circle"></i> Create React App (CRA)</li>
+                            <li><i class="fas fa-check-circle"></i> Vite Setup & Optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Webpack Configuration</li>
+                            <li><i class="fas fa-check-circle"></i> GitHub Pages Deployment</li>
+                            <li><i class="fas fa-check-circle"></i> Vercel & Netlify Integration</li>
+                            <li><i class="fas fa-check-circle"></i> CI/CD Pipelines</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon ai-cert">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3>Building LLM Applications with Prompt Engineering</h3>
-                    <p class="cert-issuer">NVIDIA</p>
-                    <p class="cert-desc">Advanced prompt engineering techniques for LLM applications</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon coding-cert">
+                <!-- React Projects -->
+                <div class="react-card premium">
+                    <div class="react-header">
                         <i class="fas fa-code"></i>
+                        <h3>React Projects</h3>
                     </div>
-                    <h3>OOP Python</h3>
-                    <p class="cert-issuer">M3aarf</p>
-                    <p class="cert-desc">Object-oriented programming principles and practices in Python</p>
+                    <div class="react-body">
+                        <div class="project-item">
+                            <h4>E-Commerce Dashboard</h4>
+                            <p>Full-featured React dashboard with product management, analytics, and real-time updates</p>
+                            <span class="tech-tiny">React • Redux • Material-UI • Axios</span>
+                        </div>
+                        <div class="project-item">
+                            <h4>Data Analytics Portal</h4>
+                            <p>Interactive data visualization platform with charts, filters, and export functionality</p>
+                            <span class="tech-tiny">React • Chart.js • Tailwind CSS • API Integration</span>
+                        </div>
+                        <div class="project-item">
+                            <h4>Task Management App</h4>
+                            <p>Collaborative task management with real-time sync, user authentication, and notifications</p>
+                            <span class="tech-tiny">React Hooks • Context API • Firebase • Responsive Design</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon soft-cert">
-                        <i class="fas fa-handshake"></i>
+                <!-- Advanced Concepts -->
+                <div class="react-card">
+                    <div class="react-header">
+                        <i class="fas fa-cog"></i>
+                        <h3>Advanced Concepts</h3>
                     </div>
-                    <h3>Communication & Interpersonal Skills</h3>
-                    <p class="cert-issuer">El Garhy Foundation</p>
-                    <p class="cert-desc">Professional communication and team collaboration skills</p>
+                    <div class="react-body">
+                        <ul class="react-list">
+                            <li><i class="fas fa-check-circle"></i> Custom Hooks Development</li>
+                            <li><i class="fas fa-check-circle"></i> Higher-Order Components (HOC)</li>
+                            <li><i class="fas fa-check-circle"></i> Render Props Pattern</li>
+                            <li><i class="fas fa-check-circle"></i> Code Splitting & Lazy Loading</li>
+                            <li><i class="fas fa-check-circle"></i> Error Boundaries</li>
+                            <li><i class="fas fa-check-circle"></i> Suspense & Concurrent Features</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon data-cert">
-                        <i class="fas fa-database"></i>
+                <!-- Performance & SEO -->
+                <div class="react-card">
+                    <div class="react-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Performance & SEO</h3>
                     </div>
-                    <h3>Introduction to SQL</h3>
-                    <p class="cert-issuer">DataCamp</p>
-                    <p class="cert-desc">Fundamental SQL queries and database management</p>
+                    <div class="react-body">
+                        <ul class="react-list">
+                            <li><i class="fas fa-check-circle"></i> React.memo & useMemo Optimization</li>
+                            <li><i class="fas fa-check-circle"></i> useCallback for Function Stability</li>
+                            <li><i class="fas fa-check-circle"></i> Bundle Size Optimization</li>
+                            <li><i class="fas fa-check-circle"></i> SEO Best Practices</li>
+                            <li><i class="fas fa-check-circle"></i> Lighthouse Performance Audits</li>
+                            <li><i class="fas fa-check-circle"></i> PWA Implementation</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon data-cert">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>Intermediate SQL</h3>
-                    <p class="cert-issuer">DataCamp</p>
-                    <p class="cert-date">March 2026</p>
-                    <p class="cert-desc">Advanced SQL techniques and complex queries</p>
+            <!-- React Stats -->
+            <div class="react-stats">
+                <div class="stat">
+                    <i class="fas fa-project-diagram"></i>
+                    <h4>15+</h4>
+                    <p>React Projects</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-code-branch"></i>
+                    <h4>50+</h4>
+                    <p>Custom Components</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-star"></i>
+                    <h4>100%</h4>
+                    <p>Best Practices</p>
+                </div>
+                <div class="stat">
+                    <i class="fas fa-users"></i>
+                    <h4>90%</h4>
+                    <p>Lighthouse Score</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- Certifications -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-item">
+                    <div class="cert-icon ai-cert"><i class="fas fa-robot"></i></div>
+                    <h4>AI Ambassadors Program</h4>
+                    <p class="cert-issuer">National Telecom Institute</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon marketing-cert"><i class="fas fa-bullhorn"></i></div>
+                    <h4>Digital Marketing Training</h4>
+                    <p class="cert-issuer">ITIDA-NTI (97%)</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon ai-cert"><i class="fas fa-sparkles"></i></div>
+                    <h4>Generative AI</h4>
+                    <p class="cert-issuer">NVIDIA DLI</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon ai-cert"><i class="fas fa-comments"></i></div>
+                    <h4>LLM Applications & Prompt Engineering</h4>
+                    <p class="cert-issuer">NVIDIA</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon code-cert"><i class="fas fa-code"></i></div>
+                    <h4>OOP Python</h4>
+                    <p class="cert-issuer">M3aarf</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon soft-cert"><i class="fas fa-handshake"></i></div>
+                    <h4>Communication & Interpersonal Skills</h4>
+                    <p class="cert-issuer">El Garhy Foundation</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon data-cert"><i class="fas fa-database"></i></div>
+                    <h4>Introduction to SQL</h4>
+                    <p class="cert-issuer">DataCamp</p>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon data-cert"><i class="fas fa-database"></i></div>
+                    <h4>Intermediate SQL</h4>
+                    <p class="cert-issuer">DataCamp (March 2026)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Let's Connect</h3>
-                    <p>I'm always open to new opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+                    <p>I'm open to opportunities, collaborations, and interesting projects.</p>
                     
-                    <div class="contact-details">
-                        <div class="contact-item">
+                    <div class="contact-methods">
+                        <div class="method">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h4>Email</h4>
                                 <a href="mailto:adham.ahmed.cs@gmail.com">adham.ahmed.cs@gmail.com</a>
                             </div>
                         </div>
-
-                        <div class="contact-item">
+                        <div class="method">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <h4>Location</h4>
                                 <p>Fayoum, Egypt</p>
                             </div>
                         </div>
-
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <h4>Availability</h4>
-                                <p>Available for freelance & full-time opportunities</p>
-                            </div>
-                        </div>
                     </div>
 
                     <div class="social-links">
-                        <a href="https://linkedin.com/in/adham-ahmed-8a7516357" class="social-btn linkedin" title="LinkedIn" target="_blank">
+                        <a href="https://linkedin.com/in/adham-ahmed-8a7516357" target="_blank" title="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/Adham1611" class="social-btn github" title="GitHub" target="_blank">
+                        <a href="https://github.com/Adham1611" target="_blank" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://instagram.com/adham_ahmed_000" class="social-btn instagram" title="Instagram" target="_blank">
+                        <a href="https://instagram.com/adham_ahmed_000" target="_blank" title="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="mailto:adham.ahmed.cs@gmail.com" class="social-btn email" title="Email">
+                        <a href="mailto:adham.ahmed.cs@gmail.com" title="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
                     </div>
                 </div>
 
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Adham Ahmed Ahmed. All rights reserved.</p>
-                <p>Data Engineer & AI/Digital Marketing Specialist | <a href="https://dataai-portfolio-yk5ng9x.gamma.site" target="_blank">Visit Main Portfolio</a></p>
-            </div>
-        </div>
+        <p>&copy; 2026 Adham Ahmed Ahmed. All rights reserved.</p>
+        <p>Data Engineer & AI/Digital Marketing Specialist | React Developer</p>
     </footer>
 
     <script src="script.js"></script>
